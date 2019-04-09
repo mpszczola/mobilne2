@@ -13,29 +13,35 @@
 		<!-- My app main page -->
 		<div data-role="page" id="pageone">
 		  <div data-role="header">
-			<h1>GUI</h1>
+			<h1>Business Card</h1>
 		  </div>
 		  <div data-role="main" class="ui-content">
-			<p>The graphical user interface (GUI), is a type of that 
-			allows users to interact with electronic The graphical 
-			user interface (GUI), is a type of that allows users to 
-			interact with electronic The graphical user interface (GUI), 
-			is a type of that allows users to interact with electronic 
+			<p>Maria Pszczoła 
+			mariapszczola@gmail.com 
+			Applied Informatics
 			</p>
-			<a href="#details" class="ui-btn ui-btn-inline ui-corner-all ui-shadow" onclick="deviceInfo()">Let me introduce myself!</a>
+			<button type="button"><a href = "#details">Interests</a></button>
+
+			
+			<!-- <a href="#details" class="ui-btn ui-btn-inline ui-corner-all ui-shadow" onclick="deviceInfo()">Let me introduce myself!</a>
+		  -->
 		  </div>
 		  <div data-role="footer" data-position="fixed">
-			<h1>Maria Pszczołą</h1>
+			<h1>Maria Pszczoła</h1>
 		  </div> 
 		</div> 
 		
 		<!-- Mobile device details page -->
 		<div data-role="page" id="details" data-dialog="true">
 			<div data-role="header" data-theme="a">
-				<h1>It's me</h1>
+				<h1>To ja /n</h1>
+				<p>Lubię czytać książki.
+				Lubię chodzić do kina.</p>
 			</div>
 			<div role="main" class="ui-content">
 				<p id="deviceDetails">Place for device details ...</p>
+				<button type="button"><a href = "#pageone">Back</a></button>
+
 			</div>
 		</div>		
 		
